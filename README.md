@@ -22,51 +22,29 @@ Make sure you have the following installed on your system:
 
     First, clone this repository to your local machine:
 
-    bash
-
-    Copy code
-
-    `git clone https://github.com/yourusername/django-blog.git
+    `git clone https://github.com/risav-pyakurel/django-blog.git
     cd django-blog`
 
 2.  **Set Up the Virtual Environment**
 
     I recommend using a virtual environment to manage dependencies. Set it up using the following commands:
-
-    bash
-
-    Copy code
-
     `python3 -m venv my_env
     source my_env/bin/activate  # On Windows, use `my_env\Scripts\activate``
 
 3.  **Install Dependencies**
 
     Install the required Python packages:
-
-    bash
-
-    Copy code
-
     `pip install -r requirements.txt`
 
 4.  **Apply Migrations**
 
     To set up the database, run the following commands:
 
-    bash
-
-    Copy code
-
     `python manage.py migrate`
 
 5.  **Run the Development Server**
 
     Start the Django development server:
-
-    bash
-
-    Copy code
 
     `python manage.py runserver`
 
