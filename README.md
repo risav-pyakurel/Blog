@@ -22,14 +22,14 @@ Make sure you have the following installed on your system:
 
     First, clone this repository to your local machine:
 
-    `git clone https://github.com/risav-pyakurel/django-blog.git
-    cd django-blog`
+    `git clone https://github.com/risav-pyakurel/django-blog.git`
+    `cd django-blog`
 
 2.  **Set Up the Virtual Environment**
 
     I recommend using a virtual environment to manage dependencies. Set it up using the following commands:
-    `python3 -m venv my_env
-    source my_env/bin/activate  # On Windows, use `my_env\Scripts\activate``
+    `python3 -m venv my_env`
+    `source my_env/bin/activate`  # On Windows, use `my_env\Scripts\activate
 
 3.  **Install Dependencies**
 
