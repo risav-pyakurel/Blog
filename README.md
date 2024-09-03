@@ -65,7 +65,7 @@ To view the blog posts, simply navigate to `http://127.0.0.1:8000/blog/` in your
 I used the following resources to help build this project:
 
 -   **Django Documentation**: The official [Django documentation](https://docs.djangoproject.com/) is an excellent resource for learning and reference.
--   **Django 5 By Example by Antonio Melé**: This book was a significant reference for me while working on this project. It provides a step-by-step guide to building Django applications and was particularly helpful in getting this blog up and running.
+-   **Django 5 By Example by Antonio Melé **: This book was a significant reference for me while working on this project. It provides a step-by-step guide to building Django applications and was particularly helpful in getting this blog up and running.
 
 ### Future Improvements
 
