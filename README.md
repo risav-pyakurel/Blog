@@ -29,20 +29,17 @@ Make sure you have the following installed on your system:
 
     I recommend using a virtual environment to manage dependencies. Set it up using the following commands:
     `python3 -m venv my_env`
-    `source my_env/bin/activate`  # On Windows, use `my_env\Scripts\activate
+    `source my_env/bin/activate`  # On Windows, use `my_env\Scripts\activate`
 
-3.  **Install Dependencies**
 
-    Install the required Python packages:
-    `pip install -r requirements.txt`
 
-4.  **Apply Migrations**
+3. **Apply Migrations**
 
     To set up the database, run the following commands:
 
     `python manage.py migrate`
 
-5.  **Run the Development Server**
+4. **Run the Development Server**
 
     Start the Django development server:
 
