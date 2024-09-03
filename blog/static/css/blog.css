@@ -5,13 +5,13 @@ body {
 }
 
 a {
-    color: #00abff;
+    color: #196ad2;
     text-decoration: none;
 }
 
 h1 {
     font-weight: normal;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid #c73535;
     padding: 0 0 10px 0;
 }
 
@@ -30,12 +30,12 @@ h2 {
     float: right;
     width: 30%;
     padding: 10px;
-    background: #efefef;
+    background: #8f2c2c;
     height: 100%;
 }
 
 p.date {
-    color: #ccc;
+    color: #27a842;
     font-family: georgia, serif;
     font-size: 12px;
     font-style: italic;
@@ -99,6 +99,6 @@ input[type=submit] {
 .comment .info {
     font-weight: bold;
     font-size: 12px;
-    color: #666;
+    color: #cc1717;
 }
 
