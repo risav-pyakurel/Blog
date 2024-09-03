@@ -33,10 +33,12 @@ def post_detail(request, year, month, day, post):
         publish__month=month,
         publish__day=day
     )
+    comments = post.comments.filter(active=True)
+    form = CommentForm()
     return render(
         request,
         'blog/post/detail.html',
-        {'post': post}
+        {'post': post, 'comments': comments, 'form': form}
     )
 
 
@@ -89,13 +91,13 @@ def post_comment(request, post_id):
     post = get_object_or_404(
         Post,
         id=post_id,
-        status=Post.Status.PUBlISHED
+        status=Post.Status.PUBLISHED
     )
     comment = None
     form = CommentForm(data=request.POST)
     if form.is_valid():
         comment = form.save(commit=False)
-        comment.post = Post
+        comment.post = post
         comment.save()
     return render(
         request,
